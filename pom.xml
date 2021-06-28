@@ -6,6 +6,7 @@
 	<modules>
 		<module>twitter-to-kafka</module>
 		<module>integration-api</module>
+		<module>common-config</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -79,6 +80,11 @@
 		<dependency>
 			<groupId>org.twitter4j</groupId>
 			<artifactId>twitter4j-core</artifactId>
+			<version>4.0.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-stream</artifactId>
 			<version>4.0.7</version>
 		</dependency>
 

@@ -1,4 +1,4 @@
-package com.cowin.integration.cowinapi.analytics.config;
+package com.cowin.integration.commons;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
